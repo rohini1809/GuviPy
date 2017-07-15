@@ -1,0 +1,9 @@
+print("enter your name")
+name = raw_input()
+c = 'Arnold'
+d = 'Ironman'
+if name == (c or d):
+   print "Hello"
+else:
+   print "GoodBye!"
+  

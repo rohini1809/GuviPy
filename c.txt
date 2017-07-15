@@ -1,0 +1,23 @@
+a= 'celsius'
+
+b= 'farenheit'
+
+print ("Enter celsius or farenheit")
+
+n= raw_input()
+
+if n == a:
+
+    g=int(input("enter value:"))
+
+    f= (9*g)/5 + 32
+
+    print 'The value in farenheit is:' ,f
+
+elif n == b:
+
+    h=int(input("enter value:"))
+
+    c= ((int(h)-32)*5)/9
+
+    print 'The celsius is:',c

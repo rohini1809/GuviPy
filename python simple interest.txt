@@ -1,0 +1,9 @@
+print ("enter principal amount")
+p = raw_input()
+print("enter rate of interest")
+r = raw_input()
+print("enter duration")
+t = raw_input()
+s= (int(p)*int(t)*int(r))/100
+print("the simple interest is")
+print(s)

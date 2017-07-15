@@ -1,0 +1,9 @@
+my_list=[]
+val=int
+sum1=int
+n=int(input('Enter the limit:'))
+for i in range(0,n):
+    val=int(input('number:'))
+    my_list.append(val)
+sum1=sum(my_list)
+print 'The average is:',sum1 

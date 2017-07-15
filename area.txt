@@ -1,0 +1,37 @@
+print("enter rectangle,square or triangle:")
+
+rect= 'rectangle'
+
+tri= 'triangle'
+
+sq = 'square'
+
+a= raw_input()
+
+if a == rect:
+
+    base1=int(input("enter base:"))
+
+    height1=int(input("enter height:"))
+
+    area1=base1*height1
+
+    print 'Area is:',area1
+
+elif a == tri:
+
+    base2=int(input("enter base:"))
+
+    height2=int(input("enter height:"))
+
+    area2=0.5*base2*height2
+
+    print 'Area is:',area2
+
+elif a == sq:
+
+    side=int(input("enter side"))
+
+    area3=4*side
+
+    print 'Area is:',area3
